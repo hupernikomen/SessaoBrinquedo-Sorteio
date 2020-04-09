@@ -56,7 +56,7 @@ capturarNomes(event) {
 
    Para evitar que o nosso sorteio fique infinito dando `undefined` pela ausencia de itens no final, faremos um `if` que verificará se ainda ha itens a serem sorteados.
 
-   `Math.floor(Math.random() * contador` gera um numero aleatorio entre 0 e o numero de itens do sorteio, esse valor é passado para a variavel `index` que iremos usar para buscar nosso item sorteado `this.listaNomes[index]` que será impresso na tela.
+   `Math.floor(Math.random() * contador)` gera um numero aleatorio entre 0 e o numero de itens do sorteio, esse valor é passado para a variavel `index` que iremos usar para buscar nosso item sorteado `this.listaNomes[index]` que será impresso na tela.
 
    Caso, ou `else` nossa lista (contaddor) esteja vazia, iremos imprimir na tela a mensagem "ACABOU !!!"
 

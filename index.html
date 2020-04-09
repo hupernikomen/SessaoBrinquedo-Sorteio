@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/estilo.css">
+   <title>Document</title>
+</head>
+<body>
+
+   <h1>Sorteio</h1>
+
+   <form onsubmit="nomes.capturarNomes(event)">
+      <p>Digite um item de cada vez:</p>
+      <textarea id="names" rows="1"></textarea>
+      <input type='submit' value='Enviar Nome'>
+
+   </form>
+
+   <div id="containerResultado">
+      <button id="btnSorteia" onclick="nomes.sorteiaNome()">Sorteio</button>
+
+      <p id="resultado"></p>
+   </div>
+
+
+   <script src="js/Sorteio.js"></script>
+   <script>
+
+      let nomes = new Sorteio();
+   
+   </script>
+</body>
+</html>

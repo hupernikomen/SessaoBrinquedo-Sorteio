@@ -1,0 +1,39 @@
+form {
+   width: 300px;
+   display: flex;
+   flex-direction: column;
+   
+}
+
+input[type=submit] {
+   height: 30px;
+   border: 0;
+   cursor: pointer;
+   outline: 0;
+   margin-bottom: 20px;
+}
+
+#btnSorteia {
+   height: 30px;
+   margin-right: 30px;
+}
+
+textarea {
+   height: 40px;
+   outline: 0;
+   resize: none;
+   font-weight: bold;
+   font-size: 18px;
+   text-align: center;
+   line-height: 40px;
+}
+
+#containerResultado {
+   display: flex;
+   align-items: center;
+}
+
+#resultado {
+   font-weight: bold;
+   text-transform: uppercase;
+}
